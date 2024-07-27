@@ -1,0 +1,8 @@
+name: Lootbox
+author: admitiendo
+main: dev.admitiendo.lootbox.Lootbox
+version: ${project.version}
+
+commands:
+  lootbox:
+    aliases: [lootboxes]

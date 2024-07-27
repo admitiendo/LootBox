@@ -1,0 +1,343 @@
+OPTIONS:
+  LOOTBOX-ITEM:
+    MATERIAL: CHEST
+    DISPLAY-NAME: '&6&lMystery Lootbox'
+    ITEM-META: 0
+    LORES:
+      - '&7▶ store.jademc.net ◀'
+      - '&a'
+      - '&a&l&nCommon'
+      - '&7▶ &d16x Golden Apple'
+      - '&7▶ &e32x Block of Emerald'
+      - '&7▶ &e32x Block of Diamond'
+      - '&7▶ &b1x Kit HighRoller Crate'
+      - '&7▶ &b1x &7[&bKhaotic Helmet&7]'
+      - '&7▶ &b1x &7[&bKhaotic Chestplate&7]'
+      - '&7▶ &b1x &7[&bKhaotic Leggings&7]'
+      - '&7▶ &b1x &7[&bKhaotic Boots&7]'
+      - '&7▶ &4&l1x &4&lLegendary Blade'
+      - '&7▶ &a16x Potion Refill Token'
+      - '&7▶ &a16x The Berserk'
+      - '&7▶ &a16x Ball Of Rage'
+      - '&7▶ &a16x Thor Ability'
+      - '&7▶ &216x Safety Net'
+      - '&7▶ &216x Firework'
+      - '&7▶ &216x Crafting Chaos'
+      - '&7▶ &616x &e&k|&6&l Partner Package &e&k|'
+      - '&a'
+      - '&4&l&nExclusive'
+      - '&7▶ &3&l1x Samurai Ability'
+      - '&7▶ &3&l1x Ninja Ability'
+      - '&7▶ &3&l1x Grappling Hook'
+      - '&7▶ &6&l500x Coins'
+      - '&7▶ &6&l750x Coins'
+REWARDS:
+  FINAL-ITEMS:
+    SAMURAI:
+      MATERIAL: GOLD_SWORD
+      DISPLAY-NAME: '&b&lSamurai Ability'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} Samurai 1
+      LORES:
+        - '&7Right click to teleport the last player'
+        - '&7who whi you. You will receive Strength II,'
+        - '&7Speed III, and the player will be Exotic Boned.'
+        - '&7on Pearl Cooldown, and on Partner Item Cooldown'
+        - '&7for 15 seconds'
+        - '&7'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    NINJA:
+      MATERIAL: NETHER_STAR
+      DISPLAY-NAME: '&b&lNinja Ability'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} NinjaAbility 1
+      LORES:
+        - '&7Right click start a teleportation process'
+        - '&7into the body of the player who hit you'
+        - '&7within the last 10 seconds.'
+        - '&7'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    GRAPPLING:
+      MATERIAL: FISHING_ROD
+      DISPLAY-NAME: '&b&lGrappling Hook'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} GrapplingHook 1
+      LORES:
+        - '&7Grapple on to blocks and objetcs.'
+        - '&7'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    500COINS:
+      MATERIAL: GOLD_NUGGET
+      DISPLAY-NAME: '&6&l500x Coins'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 69
+      COMMANDS:
+        - coins add {PLAYER} 500
+      LORES:
+        - '&7'
+        - '&7Use /shop to see what you can'
+        - '&7buy with coins.'
+      ENCHANTS:
+        - DURABILITY:10
+    750COINS:
+      MATERIAL: GOLD_NUGGET
+      DISPLAY-NAME: '&6&l750x Coins'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 39
+      COMMANDS:
+        - coins add {PLAYER} 750
+      LORES:
+        - '&7'
+        - '&7Use /shop to see what you can'
+        - '&7buy with coins.'
+      ENCHANTS:
+        - DURABILITY:10
+  REGULAR-ITEMS:
+    DIAMOND-BLOCKS:
+      MATERIAL: DIAMOND_BLOCK
+      DISPLAY-NAME: '&fBlock of Diamond'
+      ITEM-META: 0
+      AMOUNT: 32
+      CHANCE: 49
+      COMMANDS:
+        - give {PLAYER} 57 48
+      LORES: {}
+      ENCHANTS: {}
+    EMERALD-BLOCKS:
+      MATERIAL: EMERALD_BLOCK
+      DISPLAY-NAME: '&fBlock of Emerald'
+      ITEM-META: 0
+      AMOUNT: 32
+      CHANCE: 49
+      COMMANDS:
+        - give {PLAYER} 133 32
+      LORES: {}
+      ENCHANTS: {}
+    KHELMET:
+      MATERIAL: DIAMOND_HELMET
+      DISPLAY-NAME: '&7[&bKhaotic Helmet&7]'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - kitpiece Helmet kpapu {PLAYER}
+      LORES:
+        - '&9Invisibility I'
+        - '&9Implants I'
+        - '&4Hellforged IV'
+      ENCHANTS:
+        - PROTECTION_ENVIRONMENTAL:3
+        - DURABILITY:3
+    KCHESTPLATE:
+      MATERIAL: DIAMOND_CHESTPLATE
+      DISPLAY-NAME: '&7[&bKhaotic Chestplate&7]'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - kitpiece Chestplate kpapu {PLAYER}
+      LORES:
+        - '&5Time Master I'
+        - '&4Hellforged IV'
+        - '&4FireResistence I'
+      ENCHANTS:
+        - PROTECTION_ENVIRONMENTAL:3
+        - DURABILITY:3
+    KLEGGINGS:
+      MATERIAL: DIAMOND_LEGGINGS
+      DISPLAY-NAME: '&7[&bKhaotic Leggings&7]'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - kitpiece Leggings kpapu {PLAYER}
+      LORES:
+        - '&5Gappler I'
+        - '&4Recover I'
+        - '&4Hellforged IV'
+      ENCHANTS:
+        - PROTECTION_ENVIRONMENTAL:3
+        - DURABILITY:3
+    KBOOTS:
+      MATERIAL: DIAMOND_BOOTS
+      DISPLAY-NAME: '&7[&bKhaotic Boots&7]'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - kitpiece Boots kpapu {PLAYER}
+      LORES:
+        - '&4Speed II'
+        - '&4Hellforged IV'
+      ENCHANTS:
+        - PROTECTION_ENVIRONMENTAL:3
+        - DURABILITY:3
+        - PROTECTION_FALL:4
+    KOTHKEYS:
+      MATERIAL: GOLD_NUGGET
+      DISPLAY-NAME: '&cKOTH Key'
+      ITEM-META: 0
+      AMOUNT: 3
+      CHANCE: 99
+      COMMANDS:
+        - koth rewardkey {PLAYER} End
+      LORES:
+        - '&4'
+        - '&f- &bObtained from: &e{&9LootBox&e}'
+      ENCHANTS: {}
+    OPKEYS:
+      MATERIAL: INK_SACK
+      DISPLAY-NAME: '&5&lOP Key'
+      ITEM-META: 5
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - key {PLAYER} OP 16
+      LORES:
+        - '&7You can redeem this key at a crate'
+        - '&7in the spawn area.'
+        - '&7'
+        - '&7&oLeft click to view a crate rewards.'
+        - '&7&oRight click to open the crate.'
+        - '&7'
+        - '&f&ostore.jademc.net'
+      ENCHANTS:
+        - DURABILITY:10
+    NOTCH:
+      MATERIAL: GOLDEN_APPLE
+      DISPLAY-NAME: '&dGolden Apple'
+      ITEM-META: 1
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - give {PLAYER} 322:1 16
+      LORES: {}
+      ENCHANTS: {}
+    KITHIGHROLLER:
+      MATERIAL: TRAPPED_CHEST
+      DISPLAY-NAME: '&b&k|&3&l High &b&lRoller &3&k|'
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 99
+      COMMANDS:
+        - kit item {PLAYER} HighRoller
+      LORES:
+        - ''
+        - '&7Right click to open this kit.'
+      ENCHANTS: {}
+    TOKEN:
+      MATERIAL: NETHER_STAR
+      DISPLAY-NAME: '&b&lPotion Refill Token'
+      ITEM-META: 0
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} PotionRefillToken 16
+      LORES:
+        - '&7Right-Click and you will receive a full inventory'
+        - '&7of health potions'
+        - '&7'
+        - '&c&lWARNING: &eThis item has not cooldown, so be carefull when'
+        - '&eyou doble click the item.'
+        - '&7'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    THOR:
+      MATERIAL: BLAZE_ROD
+      DISPLAY-NAME: '&b&lPotion Refill Token'
+      ITEM-META: 0
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} ThorAbility 16
+      LORES:
+        - '&7Right Click to activate a 10 seconds period'
+        - '&7every hit you do has a 20% chance of striking them'
+        - '&7with a lightning strike that does 2 hearts of damage'
+        - '&c'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    RAGEBALL:
+      MATERIAL: EGG
+      DISPLAY-NAME: '&b&lBall Of Rage'
+      ITEM-META: 0
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} BallOfRage 16
+      LORES:
+        - '&7Throw to create a cloud of effects. Your faction'
+        - '&7will be give Strength II and Resistance III for'
+        - '&78 seconds, and enemies will be give Weakness II'
+        - '&7and wither II for 5 seconds.'
+        - '&c'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    FIREWORK:
+      MATERIAL: FIREWORK
+      DISPLAY-NAME: '&b&lFirework'
+      ITEM-META: 0
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} Firework 16
+      LORES:
+        - '&7Right-Click and you will'
+        - '&7be impulsed to the sky!'
+        - '&c'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    SAFETYNET:
+      MATERIAL: SPECKLED_MELON
+      DISPLAY-NAME: '&b&lSafety Net'
+      ITEM-META: 0
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} MelonLifesteal 16
+      LORES:
+        - '&7If you dont have any potion'
+        - '&7click this item and you will receive'
+        - '&7absortion, regeneration, resistance,'
+        - '&7and fire resistance...'
+        - '&7'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
+    BERSERK:
+      MATERIAL: INK_SACK
+      DISPLAY-NAME: '&b&lThe Berserk'
+      ITEM-META: 1
+      AMOUNT: 16
+      CHANCE: 99
+      COMMANDS:
+        - ability give {PLAYER} TheBerserk 16
+      LORES:
+        - '&7Right Click to put a bard with'
+        - '&7different bard effects that you will,'
+        - '&7receive within your teammates.'
+        - '&7'
+        - '&7▶ &3Available for purchase at &bstore.jademc.net&3! &7◀'
+      ENCHANTS:
+        - DURABILITY:10
